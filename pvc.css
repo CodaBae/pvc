@@ -1,0 +1,143 @@
+.navbar {
+  background: rgb(13, 121, 139);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  ;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+img {
+  background-image: url("pvcimg2.jpg") !important;
+  background-attachment: fixed;
+  /* background-size: cover ; */
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+/* .header {
+  background-image: url("backgroundImg.jpg") !important;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%
+} */
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+
+.description h3 {
+  color: rgb(59, 126, 42);
+  text-align: left;
+  text-align: center;
+  margin-left: -42%;
+}
+
+.description p {
+  color: rgb(13, 121, 139);
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+  margin-left: 5%;
+  margin-top: 14%;
+}
+
+.h {
+  margin-top: 5em;
+}
+
+.about {
+  margin: 4em 0;
+  padding: 3em;
+  position: relative;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  text-decoration: none;
+  color: rgb(101, 104, 112);
+}
+
+.list-group {
+  width: 60%;
+  margin-top: -40%;
+  margin-left: 64%;
+  width: 37%;
+}
+
+.list-group-item {
+  color: white;
+  text-align: center;
+  background-color: rgb(59, 126, 42);
+  cursor: pointer;
+}
+
+/* .container {
+  max-width: 45%;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto; 
+/* }  */
+
+/* 
+  .descriptio p {
+    color: rgb(13, 121, 139);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+    margin-left: 5%;
+    margin-top: 14%;
+} */ 
+
+.footer {
+  font-size: 23px;
+}
+.w3-center {
+  text-align: center !important;
+}
+.w3-animate-opacity {
+  animation: opac 0.160s;
+}
+.w3-container{
+  width: 70%;
+  /* /* padding:0 !important; */
+}  
+
+
+
+
+
+
+
+
+  
